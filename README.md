@@ -20,4 +20,10 @@
 **Résultat cmdlet Get-ADDomain**
 <img width="1120" height="704" alt="Get-AdDomain" src="https://github.com/user-attachments/assets/51533be4-5b78-4dde-93df-ce9ace57e4c1" />
 
+## Tableau de criticité
 
+| Élément     | Responsable    | Criticité (vitale / importante / utile)                             | Données traitées                        | Exposition                 |
+| ----------- | -------------- | ------------------------------------------------------------------- | --------------------------------------- | -------------------------- |
+| PAR-AD-01   | Administrateur | Vitale : fourni l'accès au réseau, le DNS                           | Comptes, Groupes, GPO, DNS              | Interne, web               |
+| PAR-GLPI-01 | Administrateur | Importante : Permet d'avoir une visibilité sur le parc informatique | Inventaire des machines et comptes GLPI | Interne, http non sécurisé |
+| PAR-ADM-01  | Administrateur | Importante : Sert à administrer l'AD                                | Scripts, Administration du domaine      | Interne, web               |
