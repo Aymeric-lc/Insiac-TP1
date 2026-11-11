@@ -35,10 +35,10 @@
 
 ## Fiche identité SI
 
-**Entreprise** : MERIDIAN, 180 salariés, sites situés à Paris et Lyon.
-**Parc** : 180 postes sans inventaire fiable avant GLPI ; le lab reproduit l’environnement avec 3 machines.
-**Serveurs** : PAR-AD-01 (contrôleur de domaine et DNS), PAR-GLPI-01 (Serveur hébergeant GLPI) et PAR-ADM-01 (poste d'admin).
-**Services critiques** : l’Active Directory et le DNS (authentification de tout le SI), puis GLPI (inventaire).
-**Points faibles** : 
-  - GLPI en HTTP, sans chiffrement
-  - Manque de redondance (un seul DC)
+  - **Entreprise** : MERIDIAN, 180 salariés, sites situés à Paris et Lyon.
+  - **Parc** : 180 postes sans inventaire fiable avant GLPI ; le lab reproduit l’environnement avec 3 machines.
+  - **Serveurs** : PAR-AD-01 (contrôleur de domaine et DNS), PAR-GLPI-01 (Serveur hébergeant GLPI) et PAR-ADM-01 (poste d'admin).
+  - **Services critiques** : l’Active Directory et le DNS (authentification de tout le SI), puis GLPI (inventaire).
+  - **Points faibles** : 
+    - GLPI en HTTP, sans chiffrement
+    - Manque de redondance (un seul DC)
