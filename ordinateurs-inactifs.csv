@@ -1,0 +1,5 @@
+﻿"Name","OperatingSystem","LastLogonDate","Enabled"
+"PAR-FS-01","Windows Server 2016 Standard",,"True"
+"LYO-SRV-01","Windows Server 2012 R2 Standard",,"True"
+"PAR-PC-017","Windows 10 Professionnel",,"True"
+"LYO-PC-004","Windows 10 Professionnel",,"True"
